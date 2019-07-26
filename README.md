@@ -9,4 +9,4 @@ For more information on how to use an external template repo see the [template g
 
 #### qemu-node-armhf
 
-Cross compile a node.js application on x64 to armhf.
+Cross compile a node.js application on x64 to armhf. Run `docker run --rm --privileged multiarch/qemu-user-static:register --reset` before `faas-cli build`.
